@@ -11,17 +11,23 @@ export class AppHome {
     return (
       <div class='app-home'>
         <p>
-          Welcome to the Stencil App Starter.
-          You can use this starter to build entire apps all with
-          web components using Stencil!
-          Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
+          Alex Merced is web developer with knowledge and experience in front-end and back-end development. From plain vanilla HTML/CSS/JS to Express/React/Angular and more. This particular SPA is created using the StecilJS Compiler.<br><br>
+
+          Contact Alex Merced to assist with your development project at Alex@AlexMerced.dev
         </p>
 
-        <stencil-route-link url='/profile/stencil'>
+        <stencil-route-link url='/profile/'>
           <button>
             Profile page
           </button>
         </stencil-route-link>
+
+        <stencil-route-link url='/profile/'>
+          <button>
+            Blog
+          </button>
+        </stencil-route-link>
+
       </div>
     );
   }
