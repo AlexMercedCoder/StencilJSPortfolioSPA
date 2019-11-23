@@ -1,4 +1,4 @@
-import { Component, Host, h } from '@stencil/core';
+import { Component, Prop, h } from '@stencil/core';
 
 @Component({
   tag: 'am-card',
@@ -6,7 +6,7 @@ import { Component, Host, h } from '@stencil/core';
   shadow: true
 })
 export class Card {
-    
+
     @Prop() cardImage: string;
     @Prop() cardtitle: string;
     @Prop() link1: string;

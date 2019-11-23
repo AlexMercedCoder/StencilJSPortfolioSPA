@@ -13,6 +13,7 @@ h1 {
   font-weight: 500;
   color: #fff;
   padding: 0 12px;
+  font-family: 'Bungee Inline', cursive;
 }
 
 header ul {display: flex; list-style: none;}
@@ -21,10 +22,22 @@ header ul li a, header stencil-route-link h1{padding: 4px; margin: 0 10px; text-
 
 header ul li a:hover, header stencil-route-link h1:hover {background-color: white; color: #6B7A8F}
 
-stencil-route-link, h1 {text-decoration: none;}
+h1 a {text-decoration: none; color: white;transition: color 2s, background-color 2s, font-size 2s;}
+
+h1 a:hover {color:#9ccfe2}
 
 .hero div {background-color: #F7882F; text-align: center; padding: 20px; color: white;}
 
 .hero div h1 {font-size: 400%;transition: color 2s, background-color 2s, font-size 2s;}
+
 .hero div h1:hover {font-size: 600%; background-color: white; color: #6B7A8F;}
-.hero div h3 {font-size: 350%;}
+
+.hero div h3 {font-size: 350%; font-family: 'Ramabhadra', sans-serif;}
+
+@media only screen and (max-width: 600px) {
+  header {
+      display: flex; flex-wrap: wrap; height: 100px;
+  }
+
+  header ul {display: none;}
+}

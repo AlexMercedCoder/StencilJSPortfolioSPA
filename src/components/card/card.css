@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   margin: 5px auto;
-  border: 2px solid midnightblue
+  border: 2px solid #F7882F
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -24,14 +24,14 @@
   padding: 2px 16px;
   display: flex;
   justify-content: space-around;
-  background-color: midnightblue
+  background-color: #6B7A8F
 }
 
-div p {margin: 0; padding: 0; text-transform: uppercase; text-align: center; color: midnightblue; border: 1px solid midnightblue;}
+div p {margin: 0; padding: 0; text-transform: uppercase; text-align: center; color: #6B7A8F; border: 1px solid #6B7A8F;}
 
-.linkbox a {color: black; background-color: midnightblue; color: white; text-transform: uppercase; text-decoration: none;}
+.linkbox a {color: black; background-color: #6B7A8F; color: white; text-transform: uppercase; text-decoration: none; transition: background-color .4s, color .4s;}
 
-.linkbox a:hover {color: midnightblue; background-color: white;}
+.linkbox a:hover {color: #F7882F; background-color: white;}
 
 .maintext {
     height: 250px;
@@ -39,7 +39,7 @@ div p {margin: 0; padding: 0; text-transform: uppercase; text-align: center; col
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-    color: midnightblue;
+    color: #6B7A8F;
 }
 
 .maintext img {max-width: 250px; max-height: 250px; display:block;}

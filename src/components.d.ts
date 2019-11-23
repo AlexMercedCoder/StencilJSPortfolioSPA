@@ -7,9 +7,7 @@
 
 
 import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
-import {
-  MatchResults,
-} from '@stencil/router';
+
 
 export namespace Components {
   interface AmBlog {}
@@ -22,9 +20,7 @@ export namespace Components {
     'linkText2': string;
   }
   interface AppHome {}
-  interface AppProfile {
-    'match': MatchResults;
-  }
+  interface AppProfile {}
   interface AppRoot {}
 }
 
@@ -80,9 +76,7 @@ declare namespace LocalJSX {
     'linkText2'?: string;
   }
   interface AppHome {}
-  interface AppProfile {
-    'match'?: MatchResults;
-  }
+  interface AppProfile {}
   interface AppRoot {}
 
   interface IntrinsicElements {

@@ -1,3 +1,22 @@
 :host {
   display: block;
 }
+
+.blogs {
+
+    width: 85%;
+    margin: 10px auto;
+
+}
+
+.blogs div{
+
+    padding: 20px;
+    border: 4px solid #F7882F;
+    transition: border 2s;
+    margin: 10px 0;
+}
+
+.blogs div:hover {
+    border: 4px solid #6B7A8F;
+}
