@@ -17,6 +17,7 @@ export class AppRoot {
             <li ><a href="http://www.github.com/alexmercedcoder">Github</a></li>
             <li ><a href="http://www.linkedin.com/in/alexmerced">LinkedIn</a></li>
             <li ><a href="https://www.youtube.com/channel/UCoc4UCEetAt3htM3hV1dQgQ">Youtube</a></li>
+            <li ><a href="https://dev.to/alexmercedcoder">Dev.to</a></li>
           </ul>
         </header>
 

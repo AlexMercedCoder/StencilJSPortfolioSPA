@@ -28,11 +28,11 @@ h1 a:hover {color:#9ccfe2}
 
 .hero div {background-color: #F7882F; text-align: center; padding: 20px; color: white;}
 
-.hero div h1 {font-size: 400%;transition: color 2s, background-color 2s, font-size 2s;}
+.hero div h1 {font-size: 400%;transition: color 2s, background-color 2s, font-size 2s; margin: 0;}
 
 .hero div h1:hover {font-size: 600%; background-color: white; color: #6B7A8F;}
 
-.hero div h3 {font-size: 350%; font-family: 'Ramabhadra', sans-serif;}
+.hero div h3 {font-size: 350%; font-family: 'Ramabhadra', sans-serif; margin: 0;}
 
 @media only screen and (max-width: 600px) {
   header {
