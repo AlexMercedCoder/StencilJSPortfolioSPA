@@ -27,11 +27,36 @@ export class AppRoot {
         </div>
 
         <main>
+        <div class="buttons">
+        <stencil-route-link url='/profile/'>
+          <button>
+            Profile page
+          </button>
+        </stencil-route-link>
+
+        <stencil-route-link url='/blog/'>
+          <button>
+            Contentful Blog
+          </button>
+        </stencil-route-link>
+        <stencil-route-link url='/wpblog/'>
+          <button>
+            Wordpress Blog
+          </button>
+        </stencil-route-link>
+        <a href='https://www.scribd.com/document/439051181/Alex-Merced-Web-Developer-Resume-Final'><button>
+        Resume
+        </button></a>
+        <a href='https://sites.google.com/view/ambootcampprojects/home'><button>
+        Bootcamp Gallery
+        </button></a>
+        </div>
           <stencil-router>
             <stencil-route-switch scrollTopOffset={0}>
               <stencil-route url='/' component='app-home' exact={true} />
               <stencil-route url='/profile/' component='app-profile' />
               <stencil-route url='/blog/' component='am-blog' />
+              <stencil-route url='/wpblog/' component='am-wp-blog' />
             </stencil-route-switch>
           </stencil-router>
         </main>

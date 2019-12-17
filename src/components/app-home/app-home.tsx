@@ -10,23 +10,6 @@ export class AppHome {
   render() {
     return (
       <div class='app-home'>
-      <stencil-route-link url='/profile/'>
-        <button>
-          Profile page
-        </button>
-      </stencil-route-link>
-
-      <stencil-route-link url='/blog/'>
-        <button>
-          Blog
-        </button>
-      </stencil-route-link>
-      <a href='https://www.scribd.com/document/439051181/Alex-Merced-Web-Developer-Resume-Final'><button>
-      Resume
-      </button></a>
-      <a href='https://sites.google.com/view/ambootcampprojects/home'><button>
-      Bootcamp Gallery
-      </button></a>
         <p>
           I am a web developer with knowledge and experience in front-end and back-end development. From plain vanilla HTML/CSS/JS to Express/React/Angular and more. This particular SPA is created using the StencilJS web component compiler. The blog page is fed through my blog using the headless CMS, Contentful, and on my profile page you can find a list of projects along with links to key articles on my Wordpress blog.<br/><br/>
 
