@@ -25,6 +25,8 @@ export class Blog {
     return (
       <div class="blogs">
 
+        <p>The blog below is a blog created using the headless CMS, Contentful, being served to this site their REST api. The purpose of this blog is to document my developer journey.</p>
+
         {this.posts.map((post) => (
             <div>
             <h1> {post.fields.blogTitle} </h1>

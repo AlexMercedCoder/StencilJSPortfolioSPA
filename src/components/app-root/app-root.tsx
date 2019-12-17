@@ -44,9 +44,12 @@ export class AppRoot {
             Wordpress Blog
           </button>
         </stencil-route-link>
-        <a href='https://www.scribd.com/document/439051181/Alex-Merced-Web-Developer-Resume-Final'><button>
-        Resume
-        </button></a>
+        <stencil-route-link url='/am-resume/'>
+          <button>
+            Resume
+          </button>
+        </stencil-route-link>
+
         <a href='https://sites.google.com/view/ambootcampprojects/home'><button>
         Bootcamp Gallery
         </button></a>
@@ -57,6 +60,7 @@ export class AppRoot {
               <stencil-route url='/profile/' component='app-profile' />
               <stencil-route url='/blog/' component='am-blog' />
               <stencil-route url='/wpblog/' component='am-wp-blog' />
+              <stencil-route url='/resume/' component='am-resume' />
             </stencil-route-switch>
           </stencil-router>
         </main>
@@ -64,3 +68,6 @@ export class AppRoot {
     );
   }
 }
+// <a href='https://www.scribd.com/document/439051181/Alex-Merced-Web-Developer-Resume-Final'><button>
+// Resume
+// </button></a>
