@@ -16,7 +16,7 @@ export class AppProfile {
             <p>
             <span>Languages:</span> Javascript, Python, GO, Ruby, C#, PHP, Swift, Kotlin<br/><br/><br/>
             <span>Front-end:</span> React/Redux, Angular, Vue, Stencil, Svelte, HTML, CSS, SASS<br/><br/><br/>
-            <span>Back-end:</span> Express, Koa, Django, Flask, FoalTS, NextJS, Gatsby, EJS, Nunjucks<br/><br/><br/>
+            <span>Back-end:</span> Express, Koa, Django, Flask, FoalTS, NextJS, Gatsby, EJS, Nunjucks, NuxtJS<br/><br/><br/>
             <span>CMS/LMS:</span> Wordpress, Moodle<br/><br/><br/>
             <span> Key Articles from Wordpress Blog</span><br/>
             *Wordpress Multi-Site installed by myself on a Google Cloud VPS<br/><br/>
@@ -25,12 +25,18 @@ export class AppProfile {
             <a href='https://wp.workspace1985.xyz/blog/category/my-developer-story/'>The rest of my developer story</a><br/><br/>
             </p>
             <p> <span> Featured Project </span>
-            <am-card cardImage="https://i.imgur.com/MLcgfsf.png" cardtitle="BetterBoxD" link1="https://github.com/Jordan-Morales/betterboxd" linkText1="git"
-            link2="https://betterboxd.herokuapp.com/" linkText2="live"/>
+            <am-card cardImage="https://i.imgur.com/vWCc9ot.png" cardtitle="devNursery" link1="https://www.devnursery.com" linkText1="git"
+            link2="https://github.com/AlexMercedCoder/devNurserySvelteBlogApp" linkText2="live"/>
             </p>
         </div>,
 
         <div class="cardContainer">
+
+        <am-card cardImage="https://i.imgur.com/sRcGAXe.png" cardtitle="Savvy Hotspots" link1="https://github.com/AlexMercedCoder/SavvyBackendAPI" linkText1="git"
+        link2="https://savvyhotspots.netlify.com/" linkText2="live"/>
+
+        <am-card cardImage="https://i.imgur.com/MLcgfsf.png" cardtitle="BetterBoxD" link1="https://github.com/Jordan-Morales/betterboxd" linkText1="git"
+        link2="https://betterboxd.herokuapp.com/" linkText2="live"/>
 
         <am-card cardImage="https://i.imgur.com/MB0HIYm.png" cardtitle="Bookmark App" link1="https://github.com/AlexMercedCoder/bookmarkApp" linkText1="git"
         link2="https://hidden-oasis-38675.herokuapp.com/" linkText2="live"/>

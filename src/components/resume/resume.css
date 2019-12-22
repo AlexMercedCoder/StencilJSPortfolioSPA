@@ -1,3 +1,6 @@
 :host {
   display: block;
 }
+
+.resume {width: 80%; padding: 10px; background-color: white; color: black;
+margin: 15px auto; border-radius: 10px; border: 4px solid #F7882F;}

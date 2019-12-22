@@ -28,9 +28,16 @@ export class AppRoot {
 
         <main>
         <div class="buttons">
+
+        <stencil-route-link url='/meet/'>
+          <button>
+            Meet Alex Video
+          </button>
+        </stencil-route-link>
+
         <stencil-route-link url='/profile/'>
           <button>
-            Profile page
+            Profile/Projects
           </button>
         </stencil-route-link>
 
@@ -44,7 +51,7 @@ export class AppRoot {
             Wordpress Blog
           </button>
         </stencil-route-link>
-        <stencil-route-link url='/am-resume/'>
+        <stencil-route-link url='/resume/'>
           <button>
             Resume
           </button>
@@ -61,6 +68,7 @@ export class AppRoot {
               <stencil-route url='/blog/' component='am-blog' />
               <stencil-route url='/wpblog/' component='am-wp-blog' />
               <stencil-route url='/resume/' component='am-resume' />
+              <stencil-route url='/meet/' component='meet-alex' />
             </stencil-route-switch>
           </stencil-router>
         </main>

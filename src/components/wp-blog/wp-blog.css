@@ -1,3 +1,47 @@
 :host {
   display: block;
 }
+
+.blogs {
+
+    width: 85%;
+    margin: 10px auto;
+
+}
+
+.blogs div{
+
+    padding: 20px;
+    border: 4px solid #F7882F;
+    transition: border 2s;
+    margin: 10px 0;
+}
+
+.blogs div:hover {
+    border: 4px solid #6B7A8F;
+}
+
+button {
+  background: #F7882F;
+  color: white;
+  margin: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  border-radius: 2px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
+  outline: 0;
+  letter-spacing: .04em;
+  transition: all .15s ease;
+  transition: background-color .4s, color .4s;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
+  transform: translateY(1px);
+  background-color: white;
+  color: #F7882F;
+}
