@@ -25,8 +25,8 @@ export class AppProfile {
             <a href='https://wp.workspace1985.xyz/blog/category/my-developer-story/'>The rest of my developer story</a><br/><br/>
             </p>
             <p> <span> Featured Project </span>
-            <am-card cardImage="https://i.imgur.com/vWCc9ot.png" cardtitle="devNursery" link1="https://www.devnursery.com" linkText1="git"
-            link2="https://github.com/AlexMercedCoder/devNurserySvelteBlogApp" linkText2="live"/>
+            <am-card cardImage="https://i.imgur.com/vWCc9ot.png" cardtitle="devNursery" link1="https://github.com/AlexMercedCoder/devNurserySvelteBlogApp" linkText1="git"
+            link2="https://www.devnursery.com" linkText2="live"/>
             </p>
         </div>,
 
