@@ -29,12 +29,6 @@ export class AppRoot {
         <main>
         <div class="buttons">
 
-        <stencil-route-link url='/meet/'>
-          <button>
-            Meet Alex Video
-          </button>
-        </stencil-route-link>
-
         <stencil-route-link url='/profile/'>
           <button>
             Profile/Projects
