@@ -9,7 +9,7 @@ export class AppProfile {
   render() {
     return [
       <div class="app-profile">
-        <img src="../../../assets/image.jpg" />
+        <img src="https://i.imgur.com/VQObNVi.jpg" />
         <p>
           <span>Current Roles:</span> Full Stack Developer for Crossfield
           Digital and Instructor for General Assembly
@@ -27,7 +27,8 @@ export class AppProfile {
           <br />
           <br />
           <span>Back-end:</span> Express, Koa, Django, Flask, FoalTS, NextJS,
-          Gatsby, EJS, Nunjucks, NuxtJS, Ruby on Rails, Buffalo, Mongo, Postgres
+          Gatsby, EJS, Nunjucks, NuxtJS, Ruby on Rails, Buffalo, Mongo,
+          Postgres, NestJS, Knex Query Builder
           <br />
           <br />
           <span>DevOps:</span> Docker, AWS Lambda, Netlify Functions, Heroku,

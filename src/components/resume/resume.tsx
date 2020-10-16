@@ -13,9 +13,9 @@ export class Resume {
        <h2>Alex Merced Resume</h2>
      <h3>SKILLS</h3>
      <p>Languages​ : HTML, CSS, Javascript, Python, PHP, Ruby, C#, Kotlin, Swift, GO, Clojure, Elixir, Java, ReasonML</p>
-     <p>Frameworks​ : Materialize, Django, NodeJS, React, Angular, Redux, Bootstrap, StencilJS, KOA, Sass, EJS, Nunjucks, Jinja, Vue, Nuxt, Svelte, Ruby on Rails</p>
+     <p>Frameworks​ : Materialize, Django, NodeJS, React, Angular, Redux, Bootstrap, StencilJS, KOA, Sass, EJS, SocketIO, Fastify, Apollo, NextJS, Buffalo, Ruby on Rails, Laravel, Nunjucks, Jinja, Vue, Nuxt, Svelte, Ruby on Rails</p>
      <p>Database:​ MongoDB, Postgres, MySQL, SQLite</p>
-     <p>Other​ : Online Media Production, Sound/Video Production, Public Speaking, Training, Spanish Language, AWS Labmda and Elastic Beanstalk, VPS (Google Cloud, Digital Ocean, Linode), Netlify Functions, Heroku</p>
+     <p>Other​ : Online Media Production, Sound/Video Production, Public Speaking, Training, Spanish Language, AWS (Lamda, Amplify, EC2, Elastic Beakstalk), Netlify/Netlify Functions, VPS (Google Cloud, Digital Ocean, Linode), Netlify Functions, Heroku</p>
      <h3>PROGRAMMING EXPERIENCE</h3>
      <p>=> Assisted Crossfield Digital team with the creation of applications such as Pitpay (mobile app) using technology such as React, Apollo Server and GraphQL.</p>
      <p>=> As a General Assembly instructor trained students in languages such as Javascript, Ruby, Python and PHP and in frameworks such as Express, React, Angular, Ruby on Rails, and Django.</p>
